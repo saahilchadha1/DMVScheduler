@@ -1,20 +1,9 @@
-var PORT = process.env.PORT || 5000;
-var express = require('express');
+var express = require(‘express’);
+var port = process.env.PORT || 3000;
 var app = express();
-
-var http = require('http');
-var server = http.Server(app);
-
-app.use(express.static('client'));
-
-server.listen(PORT, function() {
-  console.log('Chat server running');
+app.get(‘/’, function (req, res) {
+ res.send(JSON.stringify({ Hello: ‘World’}));
 });
-
-var io = require('socket.io')(server);
-
-io.on('connection', function(socket) {
-  socket.on('message', function(msg) {
-    io.emit('message', msg);
-  });
+app.listen(port, function () {
+ console.log(`Example app listening on port !`);
 });

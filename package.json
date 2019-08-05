@@ -1,17 +1,23 @@
 {
-    "name": "js-fundamentals-test",
-    "version": "1.0.0",
-    "description": "",
-    "main": "main.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.16.3",
-      "socket.io": "^2.1.1"
-    }
+  "name": "DMV",
+  "version": "1.0.0",
+  "description": "[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saahilchadha1/DMVScheduler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saahilchadha1/DMVScheduler/issues"
+  },
+  "homepage": "https://github.com/saahilchadha1/DMVScheduler#readme",
+  "dependencies": {
+    "express": "^4.17.1"
   }
+}
